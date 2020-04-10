@@ -1,0 +1,55 @@
+3 services
+Task
+- Add Task
+- Remove Task
+- Edit Task
+- Toggle Task Complete
+
+User
+- Sign In
+- Sign Out
+- Register
+
+
+TaskList
+- Add TaskList
+- Rename TaskList
+- Delte TaskList
+
+Routes
+- / - shows the main screen homepage that displays some lists
+- /login
+- /register
+- /lists - shows all lists for a user
+- /lists/taskID
+
+DBs
+- Users
+    - ID
+    - Username
+    - Name
+    - Password
+- TaskList
+    - ID
+    - Name
+    - Desctiption
+    - Owner Username
+- Task
+    - ID
+    - Name
+    - Description
+    - Completed
+    - Owner
+    - TaskListName
+
+Components
+- Task
+- TaskItem
+- TaskList
+- Sidebar
+- LoginModal
+- Login
+- Account
+- AccountModal
+- Register
+- HomeScreen
